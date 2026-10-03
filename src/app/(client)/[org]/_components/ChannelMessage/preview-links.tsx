@@ -28,7 +28,7 @@ const extractLinks = (text: string) => {
       (text.match(urlRegex) || []).map((url) => {
         let cleanedUrl = url.replace(/['">,.;!]+$/, "");
         if (cleanedUrl.startsWith("www.")) {
-          cleanedUrl = `http://${cleanedUrl}`;
+          cleanedUrl = `https://${cleanedUrl}`;
         }
         return cleanedUrl;
       })
