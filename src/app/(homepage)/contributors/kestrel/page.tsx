@@ -328,7 +328,7 @@ const TeamKestrelPage = () => {
       </section>
 
       <DynamicFooter
-        text="Start Building Structured Learning Today"
+        text="Start Building Structured Learning Today — Made with Team Kestrel"
         description="Create organized channels, manage cohorts, and streamline your learning environment."
       />
     </div>
